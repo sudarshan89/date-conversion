@@ -1,0 +1,30 @@
+{
+	"id": "c9aa5d03-00c5-4c3d-706c-eb61c89bd55b",
+	"name": "date-conversion",
+	"requests": [
+		{
+			"id": "c64aaa7e-ecb1-48f5-9864-e70a2c388fa0",
+			"headers": "",
+			"url": "http://127.0.0.1:8081/api/user",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"collectionId": "c9aa5d03-00c5-4c3d-706c-eb61c89bd55b",
+			"data": [],
+			"dataMode": "params",
+			"name": "Sample-dob-conversioon",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1451947139896,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	],
+	"order": [
+		"c64aaa7e-ecb1-48f5-9864-e70a2c388fa0"
+	],
+	"timestamp": 1451947139896
+}

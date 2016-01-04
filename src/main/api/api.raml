@@ -1,0 +1,16 @@
+#%RAML 0.8
+
+title: Sample API
+baseUri: http://app.zencoder.com/api/
+/user:
+  displayName: Authenticated User
+  get:
+    description: A User
+    responses:
+      200:
+        body:
+          application/json:
+            example: |
+              {
+                "dateOfBirth": "14-11-1983 09:30:00 AM"
+              }          
